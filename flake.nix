@@ -3,8 +3,8 @@
 
   outputs = { self, ... }: {
     templates = {
-      base = {
-        path = ./base;
+      default = {
+        path = ./default;
         description = "A basic flake with flake-utils";
       };
     };
